@@ -49,12 +49,13 @@ header {
     text-align: center;
     margin: 50px;
 }
-.Contact {
+.contact {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 65px;
+    font-size: 20px;
     color: black;
     font-weight: bold;
-    margin: 35px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 /* Other Text Styles */
@@ -128,7 +129,7 @@ section {
     margin: 0 auto;
 }
 .videocontent {
-    padding: 25px;
+    padding: 10px;
     text-align: center;
 }
 .aboutme {
@@ -187,7 +188,7 @@ html, body { /* Fix blank space */
 }
 /* journey html */
 .header{
-    background-color: #000000;
+    background-color: black;
 }
 #journey {
     padding-top: 0px;
@@ -228,4 +229,50 @@ html, body { /* Fix blank space */
 .blog-item img{
     width: 100%;
     height: 50%;
+}
+/* Future html */
+/* Goals Styles */
+.goals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid rgb(0, 252, 17);
+}
+
+.goal-item {
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #F6BE00;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 200px; /* Ensures a minimum height but allows growth */
+    width: 100%; /* Allows full-width in smaller screens */
+    box-sizing: border-box; /* Includes padding in width/height */
+}
+.goal-item p {
+    font-size: 1em;
+    line-height: 1.5;
+    word-wrap: break-word; /* Ensures text wraps properly */
+}
+.goal-icon {
+    font-size: 4px;
+    margin-bottom: 10px;
+}
+/* Future */
+.future-bottom{
+    text-align: center;
+    margin: 10px;
+}
+.future-bottom h3{
+    color: #000000;
+}
+.future-bottom p{
+    color: #000000;
+}
+.spacefuture{
+    margin: 10px;
+}
+.future-para {
+    border: 5px solid red;
 }
