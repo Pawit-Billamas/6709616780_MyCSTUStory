@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Global Styles */
 * {
@@ -30,20 +31,25 @@ header {
 
 /* Heading Styles */
 .heading1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 90px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
     color: #F6BE00;
     font-weight: bold;
 }
 .heading2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-size: 65px;
     color: #204116;
     font-weight: bold;
     margin: 50px;
 }
 .heading3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     font-size: 65px;
     color: #F6BE00;
     font-weight: bold;
@@ -51,7 +57,9 @@ header {
     margin: 50px;
 }
 .contact {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-size: 20px;
     background-color: #ecedd4;
     color:#204116
@@ -59,12 +67,16 @@ header {
 
 /* Other Text Styles */
 h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+
 }
 h4 {
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-size: 50px;
 }
 .para1 {
@@ -94,7 +106,9 @@ details {
     color: aqua;
 }
 .des {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-size: 20px;
     color: #204116;
 }
@@ -106,6 +120,9 @@ details {
     text-align: right;
 }
 .text-container {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     width: 1000px;
     margin: 0 auto; /* Centers the container horizontally */
     text-align: justify; /* Justifies the text */
@@ -135,6 +152,9 @@ section {
     border: 1px solid #204116;
 }
 .navbar {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     position: fixed;
     top: 0;
     width: 100%;
@@ -199,6 +219,9 @@ html, body { /* Fix blank space */
     background-color: #193311;
 }
 .blog-title{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     margin: 0;
     text-align: center;
     background-color: #ecedd4;
@@ -206,19 +229,29 @@ html, body { /* Fix blank space */
     padding: 20px; /* Add padding to create space around the title */
 }
 .blog-title h3{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
     color: #204116;
 }
 .blog-item ul {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     color: #ffffff;
     margin: 20px;
 }
 .blog-item h4 {
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
     margin-top: 1rem;
 }
 .blog-item {
     margin: 1rem ;
-    border: 2.5px solid #ecedd4;
+    
 }
 .blog-con{
     display: grid;
@@ -229,19 +262,24 @@ html, body { /* Fix blank space */
     width: 100%;
     height: 50%;
 }
-/* Future html */
-.section {
-    background-color: #193311;
-    border: 0.0005px solid #193311 ;
-}
+
 .section-title {
-    font-size: 65px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
     color: #ffffff;
     font-weight: bold;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 20px;
 }
+/* Future html */
+.section {
+    background-color: #193311;
+    border: 0.0005px solid #193311 ;
+}
+
 /* Goals Styles */
 .goals-container {
     display: flex;
@@ -262,9 +300,18 @@ html, body { /* Fix blank space */
     box-sizing: border-box; /* Includes padding in width/height */
 }
 .goal-item p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1em;
     line-height: 1.5;
     word-wrap: break-word; /* Ensures text wraps properly */
+}
+.goal-item h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
 }
 .goal-icon {
     font-size: 4px;
@@ -277,9 +324,16 @@ html, body { /* Fix blank space */
 }
 .future-bottom h3{
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
 }
 .future-bottom p{
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .spacefuture{
     margin: 10px;
@@ -294,7 +348,7 @@ html, body { /* Fix blank space */
     justify-content: space-between;
   }
   
-  .futureitem {
+.futureitem {
     width: 200px; /* Adjust the width as needed */
     height: 200px;
     border: 1px solid #ccc;
@@ -302,11 +356,11 @@ html, body { /* Fix blank space */
     justify-content: center;
     align-items: center;
   }
-  .futureitem img {
+.futureitem img {
     max-width: 100%;
     max-height: 100%;
   } 
-  .futuretext {
+.futuretext {
     flex: 1;
     padding: 20px;
   }
