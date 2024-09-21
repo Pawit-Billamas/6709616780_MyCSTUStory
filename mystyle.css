@@ -1,8 +1,11 @@
+/* Global Styles */
 * {
     padding: 0;
     margin: auto;
 }
-::-webkit-scrollbar { 
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
@@ -12,20 +15,19 @@
     background: #999;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555
+    background: #555;
 }
-.content{
-    position: flex;
-    width: 900px;
-    text-align: right;
-}
-header{
+
+/* Header Styles */
+header {
     height: 900px;
     display: flex;
-    background-image: url( resources/19437.jpg);
+    background-image: url(resources/19437.jpg);
     background-size: cover;
     background-position: center;
 }
+
+/* Heading Styles */
 .heading1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 90px;
@@ -47,23 +49,25 @@ header{
     text-align: center;
     margin: 50px;
 }
-.Contact{
+.Contact {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 65px;
     color: black;
     font-weight: bold;
     margin: 35px;
 }
+
+/* Other Text Styles */
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 40px;
+    font-size: 40px;
     color: #ffffff;
 }
-h4{
+h4 {
     color: #ffffff;
     font-size: 50px;
 }
-.para1{
+.para1 {
     font-size: 25px;
     color: #f1f1f1;
 }
@@ -71,83 +75,90 @@ h4{
     color: aqua;
     font-style: italic;
 }
-.para2{
+.para2 {
     font-size: 25px;
     margin-left: 100px;
 }
-.listcon{
+.listcon {
     margin-left: 100px;
     font-size: 30px;
 }
-.listbar{
+.listbar {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-details{
+details {
     color: aqua;
     font-size: medium;
 }
-.moba{
+.moba {
     color: aqua;
 }
-.des{
+.des {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
+
+/* Layout Styles */
+.content {
+    position: flex;
+    width: 900px;
+    text-align: right;
+}
 .text-container {
-    width: 1000px; 
+    width: 1000px;
     margin: 0 auto; /* Centers the container horizontally */
     text-align: justify; /* Justifies the text */
     line-height: 1.5; /* Adjust the line height for better spacing */
 }
-.rectangle{
+.rectangle {
     height: 50px;
     width: 100vw;
     background-color: #F6BE00;
 }
-.introtext{
+.introtext {
     text-align: center;
 }
 #video {
     text-align: center;
     width: 100%;
     height: 100%;
-    border : 2px dotted #000000;
+    border: 2px dotted #000000;
 }
 section {
-  margin: 0 auto;
+    margin: 0 auto;
 }
-.videocontent{
+.videocontent {
     padding: 25px;
     text-align: center;
 }
-.aboutme{
+.aboutme {
     text-align: center;
     background-color: #000000;
     border: 1px solid black;
 }
-.navbar{
+.navbar {
     position: fixed;
     width: 100%;
-  z-index: 999;
+    z-index: 999;
 }
-.navbar ul{
+.navbar ul {
     list-style-type: none;
-    background-color: #F6BE00;
+    background-color: #8B2E41;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar a:hover {
     background-color: hsl(0, 0%, 10%);
 }
-.navbar li{
+.navbar li {
     float: left;
 }
 .image-grid {
@@ -155,23 +166,51 @@ section {
     justify-content: center;
     align-items: center;
 }
-  
 .image-container {
     width: 25%; /* Adjust as needed */
     height: 400px; /* Adjust as needed */
     border: 5px solid #525252; /* Optional: Add a border for a window-like effect */
     margin: 10px; /* Adjust for spacing between containers */
 }
-  
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure images fill their containers */
 }
-html,body {
+html, body { /* Fix blank space */
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+/* journey html */
+.section-title {
+    font-size: 65px;
+    color: #F6BE00;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 130px;
+    border: 1px solid red;
+}
+.blog-title{
+    margin: 2rem 0;
+}
+.blog-title h3{
+    color: rgb(244, 10, 228);
+}
+.blog-item h4 {
+    color: #8B2E41;
+    margin-top: 1rem;
+}
+.blog-item {
+    margin: 1rem ;
+}
+.blog-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 2rem;
+}
+.blog-item img{
+    width: 100%;
 }
