@@ -5,6 +5,13 @@
     padding: 0;
     margin: auto;
 }
+html, body { /* Fix blank space */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 /* Scrollbar Styles */
 ::-webkit-scrollbar {
@@ -20,137 +27,7 @@
     background: #555;
 }
 
-/* Header Styles */
-header {
-    height: 900px;
-    display: flex;
-    background-image: url(resources/19437.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-/* Heading Styles */
-.heading1 {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 80px;
-    color: #F6BE00;
-    font-weight: bold;
-}
-.heading2 {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 65px;
-    color: #204116;
-    font-weight: bold;
-    margin: 50px;
-}
-.heading3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 65px;
-    color: #F6BE00;
-    font-weight: bold;
-    text-align: center;
-    margin: 50px;
-}
-.contact {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    background-color: #ecedd4;
-    color:#204116
-}
-
-/* Other Text Styles */
-h3 {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-
-}
-h4 {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 50px;
-}
-.para1 {
-    font-size: 25px;
-    color: #f1f1f1;
-}
-.para1 .mobas {
-    color: aqua;
-    font-style: italic;
-}
-.para2 {
-    font-size: 25px;
-    margin-left: 100px;
-}
-.listcon {
-    margin-left: 100px;
-    font-size: 30px;
-}
-.listbar {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-details {
-    color: aqua;
-    font-size: medium;
-}
-.moba {
-    color: aqua;
-}
-.des {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: #204116;
-}
-
-/* Layout Styles */
-.content {
-    position: flex;
-    width: 900px;
-    text-align: right;
-}
-.text-container {
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    width: 1000px;
-    margin: 0 auto; /* Centers the container horizontally */
-    text-align: justify; /* Justifies the text */
-    line-height: 1.5; /* Adjust the line height for better spacing */
-}
-
-.introtext {
-    text-align: center;
-}
-#video {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    border: 2px dotted #000000;
-}
-section {
-    margin: 0 auto;
-}
-.videocontent {
-    padding: 10px;
-    text-align: center;
-    background-color: #ecedd4;
-}
-.aboutme {
-    text-align: center;
-    background-color: #204116;
-    border: 1px solid #204116;
-}
+/* Navbar */
 .navbar {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
@@ -180,30 +57,158 @@ section {
 .navbar li {
     float: left;
 }
+
+/* Backgroundpicture */
+header {
+    height: 900px;
+    display: flex;
+    background-image: url(resources/19437.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hello my name is pawit */
+.myname {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    color: #F6BE00;
+    font-weight: bold;
+}
+.content {
+    position: flex;
+    width: 900px;
+    text-align: right;
+}
+h3 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+
+}
+h4 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+/* Finish */
+
+/* Video */
+.videocontent {
+    padding: 10px;
+    text-align: center;
+    background-color: #ecedd4;
+}
+#video {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 2px dotted #000000;
+}
+.introductiontxt {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    color: #204116;
+    font-weight: bold;
+    margin: 50px;
+}
+section {
+    margin: 0 auto;
+}
+.vidzdescript {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #204116;
+}
+/* Finish*/
+
+/* About me*/
+.aboutme {
+    text-align: center;
+    background-color: #204116;
+    border: 1px solid #204116;
+}
+.aboutmetitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    color: #F6BE00;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
 .image-grid {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.image-container {
+.aboutme-img-con {
     width: 50%; /* Adjust as needed */
     height: 400px; /* Adjust as needed */
     border: 5px solid #525252; /* Optional: Add a border for a window-like effect */
     margin: 10px; /* Adjust for spacing between containers */
 }
-.image-container img {
+.aboutme-img-con img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure images fill their containers */
 }
-html, body { /* Fix blank space */
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+.aboutmetxtcon {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    width: 1000px;
+    margin: 0 auto; /* Centers the container horizontally */
+    text-align: justify; /* Justifies the text */
+    line-height: 1.5; /* Adjust the line height for better spacing */
 }
+.mobas {
+    color: aqua;
+    font-style: italic;
+}
+details {
+    color: aqua;
+    font-size: medium;
+}
+/* Finish*/
+
+/* Contact*/
+.contact {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #ecedd4;
+    color:#204116
+}
+.listcon {
+    margin-left: 100px;
+    font-size: 30px;
+}
+/* Finish*/
+
+/* Other Text Styles */
+
+.para2 {
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.introtext {
+    text-align: center;
+}
+
+
 /* journey html */
+
+/* My Journey to.. */
 .header{
     background-color: #193311;
 }
@@ -211,13 +216,20 @@ html, body { /* Fix blank space */
     padding-top: 0px;
     border: 0.0005px solid #193311; /* Adjust this value as needed */
 }
-
-.blog{
-    background-color: #ecedd4;
+#journey h2{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
-.mainblog-con{
-    background-color: #193311;
-}
+/* Finish */
+   
+/* My Roadmap */
 .blog-title{
     color: #ffffff;
     font-family: "Poppins", sans-serif;
@@ -228,12 +240,26 @@ html, body { /* Fix blank space */
     height: 50px; /* Adjust the height as needed */
     padding: 20px; /* Add padding to create space around the title */
 }
-.blog-title h3{
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
-    color: #204116;
+/* Finish */
+
+/* Year 1-4*/
+.blog{
+    background-color: #ecedd4;
+}
+.mainblog-con{
+    background-color: #193311;
+}
+.blog-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 2rem;
+}
+.blog-item {
+    margin: 1rem ;  
+}
+.blog-item img{
+    width: 100%;
+    height: 50%;
 }
 .blog-item ul {
     color: #ffffff;
@@ -249,21 +275,24 @@ html, body { /* Fix blank space */
     color: #ffffff;
     margin-top: 1rem;
 }
-.blog-item {
-    margin: 1rem ;
-    
+.blog-title h3{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #204116;
 }
-.blog-con{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    column-gap: 2rem;
-}
-.blog-item img{
-    width: 100%;
-    height: 50%;
-}
+/* Finish */
 
-.section-title {
+
+
+/* Future html */
+.section {
+    background-color: #193311;
+    border: 0.0005px solid #193311 ;
+}
+/* My Future Aspirations */
+#future h2 {
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -274,11 +303,7 @@ html, body { /* Fix blank space */
     margin-top: 70px;
     margin-bottom: 20px;
 }
-/* Future html */
-.section {
-    background-color: #193311;
-    border: 0.0005px solid #193311 ;
-}
+/* Finish */
 
 /* Goals Styles */
 .goals-container {
@@ -287,7 +312,6 @@ html, body { /* Fix blank space */
     justify-content: space-around;
     background-color: #ecedd4;
 }
-
 .goal-item {
     flex-basis: calc(33.333% - 20px);
     margin: 10px;
@@ -310,14 +334,19 @@ html, body { /* Fix blank space */
 .goal-item h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-style: normal;
-  
+    font-style: normal;  
 }
 .goal-icon {
     font-size: 4px;
     margin-bottom: 10px;
 }
-/* Future */
+/* Finish*/
+
+/* My Vision for the future */
+.future-para {
+    background-color: #193311;
+    border: 5px solid #193311;
+}
 .future-bottom{
     text-align: center;
     margin: 10px;
@@ -338,16 +367,11 @@ html, body { /* Fix blank space */
 .spacefuture{
     margin: 10px;
 }
-.future-para {
-    background-color: #193311;
-    border: 5px solid #193311;
-}
 .futurecontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
+}
 .futureitem {
     width: 200px; /* Adjust the width as needed */
     height: 200px;
@@ -364,3 +388,4 @@ html, body { /* Fix blank space */
     flex: 1;
     padding: 20px;
   }
+/* Finish*/
